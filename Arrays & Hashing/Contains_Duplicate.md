@@ -26,7 +26,7 @@ class Solution:
 
 # Approach - Use hashset to store the element of array one by one using for loop and check that does that element that we are going to insert exist in set or not. If it exist , it means we've encountered duplicate value
 
-```
+```python
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         hashset = set()
